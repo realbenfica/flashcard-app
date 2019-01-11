@@ -1,6 +1,5 @@
 function sky() {
     document.getElementById("question1").innerText = "Blue"
-    console.log("HIHIHIHI, Test")
 }
 
 
