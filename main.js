@@ -1,5 +1,5 @@
 let currentQuestionNumber = 0
-const questions = ["What is the colour of the sky?", " is the meaning of life", "How deep is the ocean?"]
+const questions = ["What is the colour of the sky?", "What is the meaning of life?", "How deep is the ocean?"]
 const answers = ["Blue", "Everything", "Very deep"]
 
 function displayCurrentQuestion() {
@@ -14,16 +14,16 @@ function nextQuestion() {
 
 displayCurrentQuestion()
 
-
 function displayCurrentAnswer() {
     document.getElementById("answers").innerHTML = answers[currentQuestionNumber];
 }
-displayCurrentAnswer();
 
+displayCurrentAnswer();
 
 function displayBeginAnswer() {
     document.getElementById("answers").innerHTML = null;
 }
+
 displayBeginAnswer();
 
 
