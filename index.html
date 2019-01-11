@@ -6,14 +6,19 @@
     <title>Flashcard-app</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
 <body>
     <h1>Flashcard-app</h1>
-    <section>
-        <div class="questions" id="question1">What is the colour of the sky?</div>
-        <button  onclick="sky()">Answer</button>
+    <section id="section">
+        <!-- <div class="questions" id="question1">What is the colour of the sky?</div> -->
+        <div class="box" id="questions"></div>
+        <div class="box" id="answers"></div>
+        <button  onclick="displayCurrentAnswer()">Answer</button>
+        <button  onclick="nextQuestion()">Next</button>
     </section>
+    
+    
 </body>
+<script src="main.js"></script>
 </html>
 
